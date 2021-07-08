@@ -52,8 +52,21 @@
           Premier plafond à atteindre : 15.000 signataires : > <a href="#" >je signe et je diffuse ce virus coopératif</a>
         </p>
       </div>
-      <b-button variant="primary" href="#">Je signe et je diffuse ce virus coopératif</b-button>
-      <b-button variant="success" href="#">Do Something Else</b-button>
+      <b-alert show>
+        <b-button variant="primary" href="#">Je signe et je diffuse ce virus coopératif</b-button>
+      </b-alert>
+      <b-alert show variant="success">
+        <b-row>
+          <b-col cols="2">
+            logo Faire archipel
+          </b-col>
+          <b-col>Soyez les
+            <b-button variant="success" href="https://www.bio-scene.org/panoramique/faire-archipels-0?pi=3157" target="_blank">
+              « Ambassadeurs de la Symbiose »</b-button><br>
+              Soyez « Artisans de l’impossible »
+            </b-col>
+          </b-row>
+        </b-alert>
 
 
 
@@ -69,19 +82,18 @@
 
 
 
+      </b-jumbotron>
+    </div>
+  </template>
 
-    </b-jumbotron>
-  </div>
-</template>
+  <script>
+  export default {
+    name: "Jumbo"
+  }
+  </script>
 
-<script>
-export default {
-  name: "Jumbo"
-}
-</script>
-
-<style>
-#jumbo {
-  text-align: left;
-}
-</style>
+  <style>
+  #jumbo {
+    text-align: left;
+  }
+  </style>
