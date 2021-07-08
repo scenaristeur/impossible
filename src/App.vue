@@ -1,12 +1,25 @@
 <template>
   <div id="app">
+    <Header />
+    <Navbar />
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Accueil</router-link> |
+      <router-link to="/formulaire">Et moi dans tout ça ?</router-link> |
+      <router-link to="/about">En savoir plus</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+export default {
+  name: "App",
+  components: {
+    'Navbar': () => import('@/components/Navbar'),
+    'Header': () => import('@/components/Header'),
+  },
+}
+</script>
 
 <style>
 #app {
