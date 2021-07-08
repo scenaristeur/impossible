@@ -2,6 +2,14 @@
   <div class="hello container">
 
 
+    <b-alert variant="warning" show>
+      Rêver, c'esr créer.<br>
+      S'exprimer, c'est exister.<br>
+      Agir, c'est s'épanouir.
+    </b-alert>
+
+    <b-alert variant="danger" show>Esquisse de scénario</b-alert>
+
     <!-- <img alt="Vue logo" src="../assets/hubris.png"> -->
     <b-card-group columns>
       <b-card
@@ -12,7 +20,7 @@
       >
 
       <b-card-text>
-        Some quick example text to build on the card title and make up the bulk of the card's content.
+        La nature...<br> Laideur incontestée qui empoisonne la vie de l'Homme...
       </b-card-text>
 
       <b-button href="https://www.bio-scene.org/panoramique/les-enjeux-futurs-proches/?pi=3698" variant="primary" target="_blank">Le syndrome d'hubris</b-button>
@@ -20,28 +28,30 @@
 
     <b-card
     title="Désir d'agir"
-    img-src="https://picsum.photos/600/300/?image=25"
-    img-alt="Image"
+    img-src="../assets/bascule.png"
+    img-alt="Et moi"
     img-top
     >
     <b-card-text>
-      Some quick example text to build on the card title and make up the bulk of the card's content.
+      Une energie positive du changement.
     </b-card-text>
 
-    <b-button href="https://www.bio-scene.org/panoramique/les-enjeux-futurs-proches?pi=3830" variant="primary">Go somewhere</b-button>
+    <b-button href="https://www.bio-scene.org/panoramique/les-enjeux-futurs-proches?pi=3830" variant="primary">Viens, on bascule !</b-button>
   </b-card>
 
   <b-card
   title="Conscient & Agissant"
-  img-src="https://picsum.photos/600/300/?image=25"
-  img-alt="Image"
+  img-src="../assets/et_moi.jpg"
+  img-alt="Et moi"
   img-top
   >
   <b-card-text>
     Some quick example text to build on the card title and make up the bulk of the card's content.
   </b-card-text>
 
-  <b-button href="https://www.bio-scene.org/et-moi-dans-tout-%C3%A7a" variant="primary">Go somewhere</b-button>
+  <b-button href="https://www.bio-scene.org/et-moi-dans-tout-%C3%A7a" variant="primary">Et moi dans tout ça ?</b-button>
+  <b-button to="/formulaire" variant="primary">Et moi dans tout ça ?</b-button>
+
 </b-card>
 
 
